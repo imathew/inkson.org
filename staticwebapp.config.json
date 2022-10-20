@@ -1,0 +1,19 @@
+{
+	"routes": [
+		{
+			"route": "/block.txt",
+			"redirect": "//www.mathewinkson.com/block.txt",
+			"statusCode": 301
+		},
+		{
+			"route": "/blockm.txt",
+			"redirect": "//www.mathewinkson.com/blockm.txt",
+			"statusCode": 301
+		},
+		{
+			"route": "*",
+			"redirect": "//www.mathewinkson.com/",
+			"statusCode": 301
+		}
+	]
+}
